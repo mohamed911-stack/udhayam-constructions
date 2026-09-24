@@ -1033,6 +1033,10 @@ footer::before {
 }
 @media (max-width: 768px) {
   #navbar { padding: 0 20px; }
+  .nav-inner { height: 70px; }
+  .nav-logo img { height: 38px; }
+  .nav-logo-text .brand { font-size: 0.9rem; }
+  .nav-logo-text .tagline { font-size: 0.5rem; letter-spacing: 1px; }
   .nav-links, .nav-cta { display: none; }
   .hamburger { display: flex; }
   .hero-stats { grid-template-columns: 1fr; position: relative; }
