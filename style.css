@@ -1082,4 +1082,18 @@ footer::before {
     gap: 20px !important;
     max-width: 100% !important;
   }
+  .hero-buttons, .cta-buttons {
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-buttons > a, .cta-buttons > a {
+    padding: 12px 10px;
+    font-size: 0.72rem;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+  }
 }
