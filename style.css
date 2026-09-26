@@ -189,10 +189,11 @@ p { font-size: 1rem; color: var(--text-mid); line-height: 1.8; }
 .nav-logo { display: flex; align-items: center; gap: 12px; }
 .nav-logo img { height: 52px; width: auto; }
 .nav-logo-text { display: flex; flex-direction: column; }
-.nav-logo-text .brand { font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; color: var(--brown); line-height: 1.1; }
-.nav-logo-text .tagline { font-size: 0.62rem; letter-spacing: 2px; text-transform: uppercase; color: var(--gold-dark); }
+.nav-logo-text .brand { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--brown); line-height: 1.2; }
+.nav-logo-text .brand-sub { font-size: 0.95rem; font-weight: 600; color: var(--gold-dark); display: block; }
 #navbar.scrolled .brand { color: var(--brown); }
 #navbar:not(.scrolled) .brand { color: var(--white); }
+#navbar:not(.scrolled) .brand-sub { color: var(--gold-light); }
 #navbar:not(.scrolled) .tagline { color: var(--gold-light); }
 
 .nav-links { display: flex; align-items: center; gap: 36px; }
